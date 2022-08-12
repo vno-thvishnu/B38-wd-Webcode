@@ -73,10 +73,15 @@ if (count==1){
     location.reload();
 }
 
+
   let giveninput = searchbar.value;
-  let url = `https://makeup-api.herokuapp.com/api/v1/products.json?product_type=${giveninput}`;
-  let result = await fetch(url);
-  let result1 = await result.json();
+ try {
+    var url = `https://makeup-api.herokuapp.com/api/v1/products.json?product_type=${giveninput}`;
+    var result = await fetch(url);
+    var result1 = await result.json();
+ }catch(error){
+    
+ };
 
   for (var i = 0; i < result1.length; i++) {
     var display = document.createElement("div");
