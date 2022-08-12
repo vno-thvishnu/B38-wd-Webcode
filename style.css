@@ -1,0 +1,129 @@
+body {
+  background-color: #e3dac9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+}
+
+.topbar {
+  background-color: #f0c883;
+  width: 100%;
+  position:sticky;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.7);
+}
+
+.topbar > ul {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.titlediv {
+  background: url(background--.jpg);
+  object-fit: fill;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logodiv {
+  width: 100%;
+  margin: -50px;  
+    display: flex;
+    justify-content: center; 
+}
+
+
+h1 {
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+.maindiv {
+  text-align: center;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.search {
+  width: 500px;
+  height: 25px;
+  text-align: center;
+  margin: 15px;
+  border-radius: 15px;
+  border: solid 1px black;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #f0c883;
+  font-size: 18px;
+  border: solid 1px black;
+}
+.navbar {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: black;
+  font-size: 15px;
+  list-style: none;
+}
+li {
+  margin-right: 50px;
+}
+
+.dis {
+  background-color: white;
+  height: 335px;
+  width: 925px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  justify-content: space-evenly;
+}
+
+.b1 {
+  background-color: burlywood;
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-color: hsl(38, 78%, 73%, 10);
+}
+.pic {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.b2 {
+  background-color: rgb(233, 233, 187);
+  width: 580px;
+  height: 300px;
+  overflow: auto;
+}
+
+th {
+  padding: 12px;
+  text-align: left;
+  background-color: #f0c883;
+  color: black;
+}
+
+
